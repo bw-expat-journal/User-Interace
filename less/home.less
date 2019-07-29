@@ -3,19 +3,40 @@ html {
 }
 content {
     width: 90%;
-    .toppic{
+    .toppic, .midpic{
         margin: 0 5%;
         width: 90%;
         position: relative;
+        border-radius: 15px;
     }
     .sign {
         position: absolute;
         top: 30%;
         left: 20%;
-        width: 100%;
+        width: 50%;
         color: white;
+        h3 {
+            margin-top: 1%;
+        }
     }
-    
+    .about, .howto, .references {
+        h3 {
+            padding-top: 3%;
+            margin-bottom: 3%;
+        }
+        margin: 2% 5%;
+        padding: 0 15%;
+        background-color: @middle-blue + 50%;
+        padding-bottom: 2%;
+    }
+    .block {
+        display: flex;
+        justify-content: space-between;
+        div:last-child {
+            margin-left: 5%;
+        }
+    }
+
 }
 .main {
     // background-color: bisque;

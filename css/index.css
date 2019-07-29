@@ -163,9 +163,9 @@ p {
 }
 header {
   display: flex;
-  width: 90%;
+  width: 100%;
   background-color: #1F4852;
-  margin: 2% 5%;
+  margin-bottom: 2%;
 }
 header .imglogo {
   width: 50%;
@@ -195,15 +195,50 @@ html {
 content {
   width: 90%;
 }
-content .toppic {
+content .toppic,
+content .midpic {
   margin: 0 5%;
   width: 90%;
   position: relative;
+  border-radius: 15px;
 }
 content .sign {
   position: absolute;
   top: 30%;
   left: 20%;
-  width: 100%;
+  width: 50%;
   color: white;
+}
+content .sign h3 {
+  margin-top: 1%;
+}
+content .about,
+content .howto,
+content .references {
+  margin: 2% 5%;
+  padding: 0 15%;
+  background-color: #6ebed0;
+  padding-bottom: 2%;
+}
+content .about h3,
+content .howto h3,
+content .references h3 {
+  padding-top: 3%;
+  margin-bottom: 3%;
+}
+content .block {
+  display: flex;
+  justify-content: space-between;
+}
+content .block div:last-child {
+  margin-left: 5%;
+}
+footer {
+  background-color: bisque;
+  width: 100%;
+  background-color: #1F4852;
+  color: white;
+}
+footer p {
+  padding: 5% 5%;
 }
