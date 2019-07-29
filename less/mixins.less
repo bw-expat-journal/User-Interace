@@ -1,0 +1,19 @@
+// Mixins is here
+.button(@bg-color, @width, @font){
+    display: block;
+    background-color: @bg-color;
+    cursor: pointer;
+    width: @width;
+    // height: 10%;
+    font-size: 2rem;
+    border-radius: 15px;
+    color:@font;
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding-top: 1%;
+  
+     &:hover{
+      opacity: 0.7;
+      color:@font; 
+    }
+}

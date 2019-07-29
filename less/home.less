@@ -2,12 +2,12 @@ html {
     background-color: @light-blue;
 }
 content {
-    width: 90%;
+    width: 100%;
     .toppic, .midpic{
-        margin: 0 5%;
-        width: 90%;
+        // margin: 0 5%;
+        width: 100%;
         position: relative;
-        border-radius: 15px;
+        // border-radius: 15px;
     }
     .sign {
         position: absolute;
@@ -26,8 +26,22 @@ content {
         }
         margin: 2% 5%;
         padding: 0 15%;
-        background-color: @middle-blue + 50%;
+        background-color: @light-blue + 40%;
         padding-bottom: 2%;
+        border-radius: 15px;
+        // .back {
+        //     background-color: white;
+        //     padding: 4%;
+        // }
+        .btn {
+            .button(@middle-blue, 20%, white);
+            margin: 1% 0 0 0;
+            padding-bottom: 1%;
+          }
+        .right {
+            display: flex;
+            justify-content: flex-end;
+        }
     }
     .block {
         display: flex;
