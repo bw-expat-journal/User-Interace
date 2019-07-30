@@ -3,13 +3,7 @@ html {
 }
 content {
     width: 100%;
-    .midpic{
-        // margin: 0 5%;
-        width: 100%;
-        position: relative;
-        // border-radius: 15px;
-    }
-    .about, .references {
+    .about{
         h3 {
             padding-top: 3%;
             margin-bottom: 3%;
@@ -32,20 +26,21 @@ content {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding-top: 3%;
+        padding-top: 5%;
 
         .block{
             display: flex;
             flex-direction: column;
             width: 30rem;
-            background-color: aqua;
-        }
-        .midpic {
-            // width: 30%;
+            background-color: @light-blue + 10%;
+            margin-bottom: 3%;
+            h3, p {
+                padding: 5%;
+            }
         }
         .btn {
             .button(@middle-blue, 50%, white);
-            margin: 1% 0 0 0;
+            margin: 5%;
             padding-bottom: 1%;
           }
     }
