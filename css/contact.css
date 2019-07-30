@@ -220,6 +220,7 @@ content .about h3 {
 }
 content .about p {
   padding: 0 5% 4% 5%;
+  text-align: justify;
 }
 content .about .content {
   display: flex;
@@ -243,13 +244,21 @@ content .about .btn:hover {
   opacity: 0.7;
   color: white;
 }
+content .about #page-wrap {
+  width: 660px;
+  background: white;
+  padding: 20px 50px 20px 50px;
+  margin: 20px auto;
+  min-height: 500px;
+  height: auto !important;
+  height: 500px;
+}
 content .about #contact-area {
   width: 80%;
-  background-color: antiquewhite;
 }
 content .about #contact-area input,
 content .about #contact-area textarea {
-  padding: 5px;
+  padding: 0.5rem;
   width: 80%;
   font-family: Helvetica, sans-serif;
   font-size: 1.4rem;
@@ -257,15 +266,29 @@ content .about #contact-area textarea {
   border: 2px solid #ccc;
 }
 content .about #contact-area textarea {
-  height: 9rem;
+  height: 10rem;
 }
 content .about #contact-area textarea:focus,
 content .about #contact-area input:focus {
   border: 2px solid #900;
 }
 content .about #contact-area input.submit-button {
-  width: 100px;
+  display: block;
+  background-color: #3C8C9E;
+  cursor: pointer;
+  width: 30%;
+  font-size: 2rem;
+  border-radius: 15px;
+  color: white;
+  border: 1px solid lightgrey;
+  text-align: center;
+  padding-top: 1%;
+  margin: 2%;
   float: right;
+}
+content .about #contact-area input.submit-button:hover {
+  opacity: 0.7;
+  color: white;
 }
 content .about label {
   float: left;
