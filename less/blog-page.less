@@ -19,15 +19,6 @@ content {
         background-color: @light-blue + 40%;
         padding-bottom: 2%;
         border-radius: 15px;
-        .btn {
-            .button(@middle-blue, 20%, white);
-            margin: 1% 0 0 0;
-            padding-bottom: 1%;
-          }
-        .right {
-            display: flex;
-            justify-content: flex-end;
-        }
     }
     .references {
         h3 {
@@ -39,5 +30,23 @@ content {
       }
     .about {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 3%;
+
+        .block{
+            display: flex;
+            flex-direction: column;
+            width: 30rem;
+            background-color: aqua;
+        }
+        .midpic {
+            // width: 30%;
+        }
+        .btn {
+            .button(@middle-blue, 50%, white);
+            margin: 1% 0 0 0;
+            padding-bottom: 1%;
+          }
     }
 }
