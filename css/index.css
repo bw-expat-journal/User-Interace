@@ -163,6 +163,7 @@ p {
 }
 header {
   display: flex;
+  justify-content: space-between;
   width: 100%;
   background-color: #1F4852;
 }
@@ -174,7 +175,8 @@ header .nav {
   display: flex;
   justify-content: space-between;
   width: 50%;
-  padding-top: 3.25%;
+  padding-top: 4rem;
+  padding-right: 5%;
 }
 header .nav a {
   text-decoration: none;
@@ -254,12 +256,21 @@ content .references .right {
   display: flex;
   justify-content: flex-end;
 }
+content .about h3 {
+  text-align: center;
+}
+content .howto h3 {
+  text-align: right;
+}
 content .block {
   display: flex;
   justify-content: space-between;
 }
 content .block div:last-child {
   margin-left: 5%;
+}
+content .justify {
+  text-align: justify;
 }
 footer {
   background-color: bisque;
