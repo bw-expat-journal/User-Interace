@@ -3,7 +3,7 @@
 <head>
 	<title>Contact Form</title>
 	
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="contact.css" />
 </head>
 
 <body>
