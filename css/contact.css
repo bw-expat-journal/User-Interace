@@ -171,10 +171,13 @@ header .imglogo {
   width: 50%;
   margin-left: 13%;
 }
+header .logo {
+  width: 40%;
+}
 header .nav {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
   padding-top: 4rem;
   padding-right: 5%;
 }
