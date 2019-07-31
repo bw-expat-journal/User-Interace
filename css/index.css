@@ -250,12 +250,17 @@ html {
 content {
   width: 100%;
 }
+content .main {
+  background-color: #C9E5EB !important;
+  padding-bottom: 2%;
+}
 content .toppic,
 content .midpic {
   width: 100%;
   position: relative;
 }
 content .sign {
+  display: none;
   position: absolute;
   top: 30%;
   left: 20%;

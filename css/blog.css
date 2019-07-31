@@ -250,6 +250,10 @@ html {
 content {
   width: 100%;
 }
+content .main {
+  background-color: #C9E5EB !important;
+  padding-top: 1%;
+}
 content .about {
   margin: 2% 5%;
   padding: 0 5%;
