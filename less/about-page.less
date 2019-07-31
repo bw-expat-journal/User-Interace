@@ -39,6 +39,9 @@ content {
         justify-content: space-between;
         div:last-child {
             margin-left: 5%;
+            @media @tablet, @mobile {
+                margin-left: 0;
+            }
         }
     }
     .justify {
@@ -48,10 +51,6 @@ content {
         display: flex;
         justify-content: space-between;
         padding-top: 3%;
-        .blockimg {
-            padding-top:3%;
-        }
-       
         h3 {
             text-align: center;
             margin-top: 3%;
@@ -59,9 +58,25 @@ content {
         p {
             padding-top: 5%;
         }
-        .blockimg {
+        .blockimg, .blockimghide, .blockimgshow {
             width: 40%;
             margin: 0 5%;
+            padding-top:3%;
+        }
+        .blockimghide {
+            display: none;
+        }
+        @media @tablet, @mobile {
+            flex-wrap: wrap;
+            .blockimg, .blockimghide {
+                width: 90%;
+            }
+            .blockimgshow {
+                display: none;
+            }
+            .blockimghide {
+                display: block;
+            }
         }
     }
 }
