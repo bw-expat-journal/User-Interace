@@ -37,11 +37,21 @@ content {
             h3, p {
                 padding: 5%;
             }
+            @media @tablet {
+                width: 48%;
+            }
+            @media @mobile {
+                width: 100%;
+            }
         }
         .btn {
             .button(@middle-blue, 50%, white);
             margin: 5%;
             padding-bottom: 1%;
+            @media @mobile {
+                width: 90%;
+            }
           }
+          
     }
 }
