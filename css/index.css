@@ -192,6 +192,27 @@ header .nav a:last-child {
 header .nav a:hover {
   opacity: 0.7;
 }
+@media (max-width: 800px) {
+  header {
+    background-color: green;
+    justify-content: center;
+  }
+  header .nav {
+    width: 50%;
+    padding-top: 3%;
+    padding-right: 2%;
+  }
+  header .nav a {
+    font-size: 1.5rem;
+  }
+  header .logo {
+    width: 40%;
+  }
+  header .imglogo {
+    width: 50%;
+    margin-left: 1%;
+  }
+}
 html {
   background-color: #C9E5EB;
 }
@@ -256,6 +277,13 @@ content .references .right {
   display: flex;
   justify-content: flex-end;
 }
+@media (max-width: 800px) {
+  content .about,
+  content .howto,
+  content .references {
+    padding: 2% 4%;
+  }
+}
 content .about h3 {
   text-align: center;
 }
@@ -287,6 +315,16 @@ footer div:first-child {
 footer div:last-child {
   padding: 2.5% 5%;
   width: 25%;
+}
+@media (max-width: 800px) {
+  footer div:first-child {
+    padding: 3% 5%;
+    width: 40%;
+  }
+  footer div:last-child {
+    padding: 2.5% 5%;
+    width: 35%;
+  }
 }
 .fa {
   padding: 10%;
