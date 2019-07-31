@@ -40,6 +40,11 @@ content {
         }
         @media @tablet {
             padding: 2% 4%;
+            .btn {
+                .button(@middle-blue, 30%, white);
+                margin: 1% 0 0 0;
+                padding-bottom: 1%;
+              }
         }
     }
     .about {
@@ -61,5 +66,31 @@ content {
     }
     .justify {
         text-align: justify;
-      }
+    }
+    @media @mobile {
+        .sign {
+            display: none;
+        }
+        .about, .howto, .references {
+            .right {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .btn{
+            width: 70% !important;
+        }
+        .references, .howto {
+            h3 {
+                text-align: center;
+            }
+        }
+        .block {
+            flex-direction: column;
+            div:last-child {
+                margin-left: 0;
+                margin-top: 3%;
+            }
+        }
+    }
 }
