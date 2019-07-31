@@ -17,6 +17,7 @@ content {
         background-color: @light-blue + 40%;
         padding-bottom: 2%;
         border-radius: 15px;
+
     }
     .references {
         h3 {
@@ -34,6 +35,9 @@ content {
         p {
             padding:0 5% 4% 5%;
             text-align: justify;
+            @media @mobile {
+                padding:0 0 4% 0;
+            }
         }
         .content {
             display: flex;

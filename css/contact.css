@@ -280,6 +280,11 @@ content .about p {
   padding: 0 5% 4% 5%;
   text-align: justify;
 }
+@media (max-width: 500px) {
+  content .about p {
+    padding: 0 0 4% 0;
+  }
+}
 content .about .content {
   display: flex;
   justify-content: center;
