@@ -34,6 +34,11 @@ content {
             justify-content: flex-end;
         }
     }
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     .references {
         h3 {
             text-align: center;
@@ -42,10 +47,18 @@ content {
     .justify {
         text-align: justify;
       }
+    .column {
+        p {
+            text-align: center;
+        }
+    }
     .block {
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
         padding-top: 3%;
+        flex-wrap: wrap;
+        width: 45%;
         div:last-child {
             margin-left: 5%;
             @media @tablet, @mobile {
@@ -59,30 +72,16 @@ content {
         p {
             padding-top: 5%;
         }
-        .blockimg, .blockimghide, .blockimgshow {
-            width: 40%;
+        .blockimg{
+            width: 90%;
             margin: 0 5%;
             padding-top:3%;
         }
-        .blockimgshow {
-            margin: 0;
-            margin-left: 6%;
-            margin-right: 2%;
-        }
-        .blockimghide {
-            display: none;
-        }
+
+
         @media @tablet, @mobile {
             flex-wrap: wrap;
-            .blockimg, .blockimghide {
-                width: 90%;
-            }
-            .blockimgshow {
-                display: none;
-            }
-            .blockimghide {
-                display: block;
-            }
+                width: 100%;
         }
     }
 }

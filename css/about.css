@@ -300,16 +300,27 @@ content .references .right {
   display: flex;
   justify-content: flex-end;
 }
+content .about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 content .references h3 {
   text-align: center;
 }
 content .justify {
   text-align: justify;
 }
+content .column p {
+  text-align: center;
+}
 content .block {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   padding-top: 3%;
+  flex-wrap: wrap;
+  width: 45%;
 }
 content .block div:last-child {
   margin-left: 5%;
@@ -326,34 +337,15 @@ content .block h3 {
 content .block p {
   padding-top: 5%;
 }
-content .block .blockimg,
-content .block .blockimghide,
-content .block .blockimgshow {
-  width: 40%;
+content .block .blockimg {
+  width: 90%;
   margin: 0 5%;
   padding-top: 3%;
-}
-content .block .blockimgshow {
-  margin: 0;
-  margin-left: 6%;
-  margin-right: 2%;
-}
-content .block .blockimghide {
-  display: none;
 }
 @media (max-width: 800px), (max-width: 500px) {
   content .block {
     flex-wrap: wrap;
-  }
-  content .block .blockimg,
-  content .block .blockimghide {
-    width: 90%;
-  }
-  content .block .blockimgshow {
-    display: none;
-  }
-  content .block .blockimghide {
-    display: block;
+    width: 100%;
   }
 }
 footer {
