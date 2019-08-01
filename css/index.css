@@ -360,6 +360,7 @@ content .block div:last-child {
 }
 content .justify {
   text-align: justify;
+  margin-bottom: 2%;
 }
 @media (max-width: 500px) {
   content .sign {
