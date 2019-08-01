@@ -26,6 +26,10 @@ A Nice & Simple Contact Form was taken from [CSS-tricks](https://css-tricks.com/
 
 Attention! It's required to setup php server on your local hosting place
 
+## Responsive
+
+All pages also have responsive design for `{mobile: 500px}` and `{tablet: 800px}`
+
 ## Links on team project
 
 [Sign Up](https://expatjournal.netlify.com/sign-up) and [Log In](https://expatjournal.netlify.com/login) links have direction to React app which one is product of our team on Lambda Build Week
