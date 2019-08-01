@@ -18,7 +18,7 @@ Main fonts is: [Raleway](https://fonts.google.com/specimen/Raleway) and [Source 
 
 For correct work of slider on `<index.html>` was added [jquery](https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js) and [bootstrap](https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js) libraries
 
-Main documental texts located on w3schools[here](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp) and [here](https://www.w3schools.com/howto/howto_js_slideshow.asp)
+Main documental texts located on w3schools [here](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp) and [here](https://www.w3schools.com/howto/howto_js_slideshow.asp)
 
 ## Contact form 
 
@@ -32,12 +32,12 @@ Attention! It's required to setup php server on your local hosting place
 
 ## Our Team
 
-Yusuf Abdulkarim - Web Back-End Engineer
-Kenya Alston - Web Front-End Engineer
-Michael Chrupcala - Web User-Interface Engineer
-Rosa Perez - Web Front-End Engineer
-Blake Prouty - Web Front-End Engineer
-Heorhii Siburov - Web User-Interface Engineer
+- [ ] Yusuf Abdulkarim - Web Back-End Engineer
+- [ ] Kenya Alston - Web Front-End Engineer
+- [ ] Michael Chrupcala - Web User-Interface Engineer
+- [ ] Rosa Perez - Web Front-End Engineer
+- [ ] Blake Prouty - Web Front-End Engineer
+- [ ] Heorhii Siburov - Web User-Interface Engineer
 
 ## This UI 
 This marketing page "Expat Journal" was created by Heorhii Siburov
