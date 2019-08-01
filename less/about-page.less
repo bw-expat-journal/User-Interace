@@ -39,16 +39,6 @@ content {
             text-align: center;
         }
     }
-    .block {
-        display: flex;
-        justify-content: space-between;
-        div:last-child {
-            margin-left: 5%;
-            @media @tablet, @mobile {
-                margin-left: 0;
-            }
-        }
-    }
     .justify {
         text-align: justify;
       }
@@ -56,6 +46,12 @@ content {
         display: flex;
         justify-content: space-between;
         padding-top: 3%;
+        div:last-child {
+            margin-left: 5%;
+            @media @tablet, @mobile {
+                margin-left: 0;
+            }
+        }
         h3 {
             text-align: center;
             margin-top: 3%;
@@ -67,6 +63,11 @@ content {
             width: 40%;
             margin: 0 5%;
             padding-top:3%;
+        }
+        .blockimgshow {
+            margin: 0;
+            margin-left: 6%;
+            margin-right: 2%;
         }
         .blockimghide {
             display: none;
